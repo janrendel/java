@@ -20,7 +20,7 @@ public class JDBCConnector {
             System.out.println("JDBC Driver 정상 로딩 성공~");
 //          Oracle DB와 연결
             con = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
-            System.out.println("Oracle DB와 연결 성공~");
+            System.out.println("Oracle DB와 연결 성공");
         } catch (ClassNotFoundException e) {
             System.out.println("Oracle JDBC Driver 파일을 찾지 못했습니다!!!");
         } catch (SQLException e) {
