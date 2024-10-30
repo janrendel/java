@@ -25,7 +25,7 @@ public class Main {
 
             while (result.next()) {
                 customer = new Customer();
-                customer.setCustmoerName(result.getString("고객"));
+                customer.setCustmoerName(result.getString("고객이름"));
                 customer.setAge(result.getInt("나이"));
                 customer.setLevel(result.getString("등급"));
                 customer.setJob(result.getString("직업"));
@@ -44,7 +44,6 @@ public class Main {
         for (Customer custom : coustomerList) {
             view.printCustomer(custom);
         }
-
         view.printFooter();
     }
 }

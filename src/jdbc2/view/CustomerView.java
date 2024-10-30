@@ -12,14 +12,14 @@ public class CustomerView  {
         System.out.printf("- 적립금: %d\n\n", customer.getReward());
     }
     public void printHead(){
-        System.out.println("===============================");
-        System.out.println("=========="+ title +"==========");
-        System.out.println("===============================");
+        System.out.println("================================");
+        System.out.println("========== "+ title +" ==========");
+        System.out.println("================================");
     }
 
     public void printFooter(){
-        System.out.println("===============================");
+        System.out.println("================================");
         System.out.println("========== Print Done ==========");
-        System.out.println("===============================");
+        System.out.println("================================");
     }
 }
